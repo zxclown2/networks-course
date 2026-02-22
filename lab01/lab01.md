@@ -35,7 +35,7 @@
    - Tue, 28 Oct 2025 05:59:01 GMT
 6. Сколько байтов контента возвращается вашему браузеру?
    - 555
-<img width="1852" height="978" alt="image" src="https://github.com/user-attachments/assets/1b6c1e51-688c-4d4b-bc80-ffba55ddedc3" />
+<img width="1852" height="978" alt="Screenshot from 2026-02-22 19-11-01" src="https://github.com/user-attachments/assets/1c3b59dc-45b1-4f0b-aa03-33047a3aaf8a" />
 
 ## Задание 2. HTTP CONDITIONAL GET/response (2 балла)
 Большинство веб-браузеров выполняют кэширование объектов и, таким образом, выполняют
@@ -68,7 +68,7 @@
    HTTP GET? Вернул ли сервер явно содержимое файла?
    - 304 Not Modified
    - Явно не вернул, нет секции Lined-base-text-data и размер овтета меньше
-<img width="1852" height="978" alt="image" src="https://github.com/user-attachments/assets/c78aed9a-2ecb-4cb0-a984-df6628e62ba1" />
+<img width="1852" height="978" alt="Screenshot from 2026-02-22 19-22-10" src="https://github.com/user-attachments/assets/a36fd5c1-c961-4076-b937-8e7b1c8d7414" />
 
 ## Задание 3. Получение длинных документов (2 балла)
 
@@ -93,7 +93,7 @@
 4. Есть ли в передаваемых данных какая-либо информация заголовка HTTP, связанная с
    сегментацией TCP?
    - В секции с http есть только общий объем, чуть выше можно найти разбиение данных по фрагментам
-<img width="1852" height="978" alt="image" src="https://github.com/user-attachments/assets/f4b7b48c-ebe5-41ee-bf39-d9315896c267" />
+<img width="1852" height="978" alt="Screenshot from 2026-02-22 19-32-39" src="https://github.com/user-attachments/assets/ee709131-3d3d-415a-9053-c05203da96e6" />
 
 ## Задание 4. HTML-документы со встроенными объектами (2 балла)
 Исследуйте, что происходит, когда ваш браузер загружает файл со встроенными объектами, т. е. файл, 
@@ -118,7 +118,7 @@
 2. Можете ли вы сказать, загрузил ли ваш браузер два изображения последовательно или
    они были загружены с веб-сайтов параллельно? Объясните.
    - Думаю, что параллельно, так как в консоли запрос за второй отправлен картинкой раньше, чем получен ответ для первой картинки
-<img width="1852" height="978" alt="image" src="https://github.com/user-attachments/assets/c64c9083-d31e-4513-b3d2-6d5289a4977b" />
+<img width="1852" height="978" alt="Screenshot from 2026-02-22 19-39-49" src="https://github.com/user-attachments/assets/a450ad5a-c41b-42a6-9679-50aec3858564" />
 
 ## Задание 5. HTTP-аутентификация (2 балла)
 Запустите веб-сайт, защищенный паролем, и исследуйте последовательность HTTP-сообщений, которыми обмениваются такие сайты.
@@ -137,4 +137,4 @@
    - 401 Unauthorized
 2. Когда ваш браузер отправляет сообщение HTTP GET во второй раз, какое новое поле включается в сообщение HTTP GET?
    - Добавляется поле http.authorization c введенными данными wireshark-students:network, видимо в base64 string
-<img width="1852" height="978" alt="image" src="https://github.com/user-attachments/assets/b4d82963-faee-4d9b-a2c4-6ea408de51a3" />
+<img width="1852" height="978" alt="Screenshot from 2026-02-22 19-44-21" src="https://github.com/user-attachments/assets/8186014c-ddc4-41ef-b6ee-d2ddfd5632f4" />
