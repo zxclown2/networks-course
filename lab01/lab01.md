@@ -34,7 +34,7 @@
 5. Когда HTML-файл, который вы извлекаете, последний раз модифицировался на сервере?
    - Tue, 28 Oct 2025 05:59:01 GMT
 6. Сколько байтов контента возвращается вашему браузеру?
-   - 555
+   - 128
 <img width="1852" height="978" alt="Screenshot from 2026-02-22 19-11-01" src="https://github.com/user-attachments/assets/1c3b59dc-45b1-4f0b-aa03-33047a3aaf8a" />
 
 ## Задание 2. HTTP CONDITIONAL GET/response (2 балла)
