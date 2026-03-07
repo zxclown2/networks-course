@@ -104,6 +104,9 @@
 <img width="1421" height="597" alt="image" src="https://github.com/user-attachments/assets/83de31c2-1d4f-4485-b097-1506ee3fd9cd" />
 
 Сама картинка:
+
+
+
 <img width="500" height="633" alt="image" src="https://github.com/user-attachments/assets/e9da9b9b-1629-46c7-a297-d8ed238852ff" />
 
 
