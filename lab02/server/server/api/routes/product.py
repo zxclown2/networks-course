@@ -66,8 +66,11 @@ async def update_product(
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"product with product_id {product_id} not found")
     product = storage.pop(product_id).model_dump()
     for key, value in payload.model_dump().items():
-        product[key] = value
-    return Product(**product)
+        if value:
+            product[key] = value
+    result = Product(**product)
+    storage[product["id"]] = result
+    return result
 
 @router.get("/products", response_model=ListResponse, status_code=status.HTTP_200_OK)
 async def create_product(
