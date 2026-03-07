@@ -62,7 +62,20 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-todo
+Создание:
+<img width="1406" height="553" alt="image" src="https://github.com/user-attachments/assets/a1dcde22-780f-42c0-94d8-f0393cbd316e" />
+
+Получение:
+<img width="1406" height="553" alt="image" src="https://github.com/user-attachments/assets/f16154ec-834b-4464-9fe8-7f33892e0891" />
+
+Обновление:
+<img width="1406" height="553" alt="image" src="https://github.com/user-attachments/assets/5fd359fc-3b4a-4eb6-a88c-69b008cd13eb" />
+
+Удаление:
+<img width="1406" height="553" alt="image" src="https://github.com/user-attachments/assets/04e05c43-aa8c-4863-8900-aa29167a3400" />
+
+Получение списка:
+<img width="1421" height="597" alt="image" src="https://github.com/user-attachments/assets/27687463-73c6-4e33-8190-9015dcf2c9eb" />
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -84,7 +97,15 @@ todo
 ```
 
 #### Демонстрация работы
-todo
+Загрузка картинки:
+<img width="1421" height="597" alt="image" src="https://github.com/user-attachments/assets/c2b75b81-ceba-4d03-a98b-cfe440b7c5e1" />
+
+Получение картинки:
+<img width="1421" height="597" alt="image" src="https://github.com/user-attachments/assets/83de31c2-1d4f-4485-b097-1506ee3fd9cd" />
+
+Сама картинка:
+<img width="500" height="633" alt="image" src="https://github.com/user-attachments/assets/e9da9b9b-1629-46c7-a297-d8ed238852ff" />
+
 
 ---
 
