@@ -65,7 +65,7 @@ async def update_product(
     if product_id not in storage:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"product with product_id {product_id} not found")
     product = storage.pop(product_id).model_dump()
-    for key, value in payload.model_dump():
+    for key, value in payload.model_dump().items():
         product[key] = value
     return Product(**product)
 
