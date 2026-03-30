@@ -117,7 +117,8 @@ class ProxyHandler(http.server.BaseHTTPRequestHandler):
             logger.info(f"GET {url}; Code: {response.status_code} [Deleted From Cache]")
 
     def do_POST(self):
-        url = self.path.lstrip('/')
+        scheme = 'http'
+        url = f'{scheme}://{self.path.lstrip('/')}'
 
         if self._check_black_list(url):
             return
@@ -131,7 +132,7 @@ class ProxyHandler(http.server.BaseHTTPRequestHandler):
             
         post_data = self.rfile.read(content_length)
 
-        forward_headers = self._forward_headers()
+        forward_headers = self._forwarded_headers()
         try:
             response = requests.post(url, headers=forward_headers, data=post_data, timeout=10)
         except Exception as e:
