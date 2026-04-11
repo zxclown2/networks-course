@@ -11,6 +11,7 @@ class Client:
         self.password = password
         self.timeout = 10
         self.ftp = FTP()
+        # self.ftp.set_debuglevel(2)
 
     def start(self):
         self.ftp.connect(self.host, self.port, timeout=self.timeout)
@@ -21,20 +22,21 @@ class Client:
         self.ftp.close()
 
     def list_rec(self, path='/', level=0):
-        space = '-' * (level * 2)
+        space = '|' + '-' * (level * 2)
 
         try:
             for file, data in self.ftp.mlsd(path):
                 if file in ('.', '..'):
                     continue
                 if data['type'] == 'file':
-                    print(f'{space}{file} {data.get("size", "?")} {data.get("modify", "?")}')
+                    print(f'{space}{file} (sz {data.get("size", "?")})')
                     continue
                 elif data['type'] == 'dir':
-                    print(f'{space}{file} {data["modify"]}:')
+                    print(f'{space}{file}:')
                     self.list_rec(f'{path.rstrip("/")}/{file}', level + 1)
         except Exception as e:
             print(f'Listing failed: {e}')
+            return
 
     def upload(self, src, dst):
         src_path = Path(src)
@@ -62,14 +64,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--host', default='127.0.0.1')
-    parser.add_argument('--port', type=int, default=21)
+    parser.add_argument('--port', type=int, default=2121)
     parser.add_argument('--user', default='')
     parser.add_argument('--password', default='')
 
     subparsers = parser.add_subparsers(dest='command', required=True)
 
     list_parser = subparsers.add_parser('list',)
-    list_parser.add_argument('--path', default='/')
+    list_parser.add_argument('path')
 
     upload_parser = subparsers.add_parser('upload')
     upload_parser.add_argument('src_path')
