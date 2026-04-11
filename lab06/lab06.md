@@ -47,7 +47,12 @@
 Приложите скриншоты.
 
 #### Скрины
-todo
+Структура
+<img width="647" height="587" alt="image" src="https://github.com/user-attachments/assets/811cd43e-8cc3-4b8d-b8b5-b87d2bd13092" />
+Логи работы
+<img width="614" height="197" alt="image" src="https://github.com/user-attachments/assets/cd148735-f80f-47fe-94a3-449496161714" />
+
+
 
 ### FTP клиент (3 балла)
 Создайте консольное приложение FTP клиента для работы с файлами по FTP. Приложение может
