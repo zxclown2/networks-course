@@ -11,7 +11,7 @@ def ping(host, port):
     for i in range(10):
         try:
             start = datetime.now()
-            sock.sendto(f'ping {i * 10 + 1} {start}'.encode('utf-8'), (host, port))
+            sock.sendto(f'ping {i + 1} {start}'.encode('utf-8'), (host, port))
             data, _ = sock.recvfrom(1024)
             end = datetime.now()
             print(f'{data.decode('utf-8')}, RTT: {end - start}')
