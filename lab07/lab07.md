@@ -134,7 +134,8 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 Сделайте скриншоты, подтверждающие корректную работу вашей программы пингования со стороны клиента.
 
 #### Демонстрация работы
-<img width="645" height="230" alt="Screenshot 2026-04-18 at 16 48 37" src="https://github.com/user-attachments/assets/2a29d70d-0727-4684-8383-b890fa0f6a18" />
+<img width="630" height="216" alt="Screenshot 2026-04-20 at 13 44 51" src="https://github.com/user-attachments/assets/db6bac92-cffb-4ae3-954a-25d22b7c67ac" />
+
 
 
 ### В. Вывод в формате ping (2 балла)
