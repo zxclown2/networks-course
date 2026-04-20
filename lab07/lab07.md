@@ -100,7 +100,8 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 
 
 #### Скрин
-<img width="1232" height="736" alt="image" src="https://github.com/user-attachments/assets/e1737b74-b6f9-4e2e-94fc-fd7520f09bf3" />
+<img width="1804" height="865" alt="image" src="https://github.com/user-attachments/assets/00f027a6-19e3-4318-8ec1-5e87bf57c027" />
+
 
 
 ## Программирование. Эхо-запросы через UDP
