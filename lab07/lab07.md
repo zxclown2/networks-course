@@ -73,7 +73,12 @@
 8. Чему равна пропускная способность (количество байтов, передаваемых в единицу
    времени) для этого TCP-соединения? Объясните, как вы получили это значение.
    6kbps, посмотрел в  statistics->tcp stream graphs-> throughput
+   сервер -> клиент
    <img width="1200" height="684" alt="image" src="https://github.com/user-attachments/assets/d4799af6-9a21-4dde-ac39-6a0d4a1ae5b0" />
+   клиент -> сервер
+   <img width="1804" height="865" alt="image" src="https://github.com/user-attachments/assets/0e347d21-199b-4b23-b8e1-26477f06acc4" />
+
+   
 
 ### Работа с Time-Sequence-Graph (Stevens) (2 балла)
 Time-Sequence-Graph (Stevens) (Временная шкала (Стивенса)) – одна из графических утилит
